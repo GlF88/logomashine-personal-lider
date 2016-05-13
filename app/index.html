@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html data-ng-app="frApp">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bundle.min.css" media="screen" title="no title" charset="utf-8">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+  <script src="js/script.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/frApp.js"></script>
+  <script src="js/maskedinput.min.js"></script>
+</head>
+<body>
+
+  <div class="popup-wrap">
+
+    <div class="popup">
+      <div class="popup_left-block">Аутсорсинг  – это услуга найма временных сотрудников на длительный период бех зачисления их в штат Вашей компании. <br /><br />
+                                    Принцип ведения бизнеса, который невольно вызывает тесную ассоциацию с пользованием автомобилем, квартирой и другими вещами, нашел отличное применение и в кадровом вопросе.<br /><br />
+                                    Вместе с компанией «Геоштат» аутсорсинг превращается в прекрасную альтернативу поиску сотрудников на долгий период.<br /><br />
+      </div>
+      <div class="popup_right-block">
+        <p class="popup_right-block_head-text">
+          Закажите персонал <br /> прямо сейчас:
+        </p>
+        <form action="">
+          <input type="text" name="name" placeholder="ФИО"/>
+          <input class="tel-input" type="text" name="tel"  placeholder="Телефон"/>
+          <button>отправить</button>
+        </form>
+        <span>или позвоните нам: <br /> <a href="tel:"> 8 (8332) 79 00 71 </a> </span>
+      </div>
+    </div>
+    <span></span>
+  </div>
+
+    <div class="wrap-block wrap-header">
+      <div class="wrap-block_undo header row">
+        <div class="col-md-3 header_logo">
+          <a href="#"> <img src="img/logo.png" alt=""> </a>
+        </div>
+        <div class="col-md-6 header_menu">
+          <ul>
+            <li><a href="#home">главная  </a></li>
+            <li><a href="#tarif">услуги и тарифы </a></li>
+            <li><a href="#vacancy">вакансии </a></li>
+            <li><a href="#contact">контакты </a></li>
+          </ul>
+        </div>
+        <div class="header_number col-md-3"><a href="tel:+7(926)0762322">+7 (926) 076-23-22</a></div>
+      </div>
+    </div>
+    <div class="wrap-block wrap-home" id="home">
+      <div class="wrap-block_undo home">
+        <div class="home_big-text">
+          Срочно необходим <br /> надежный персонал?
+          <p>Подберем бригаду разнорабочих, грузчиков и рабочих <br /> других специализаций в кратчайшие сроки!</p>
+        </div>
+        <form action="">
+          <input type="text" placeholder="Ваше имя"/>
+          <input type="text" class="tel-input" placeholder="Ваш телефон"/>
+          <button>заказать звонок</button>
+          <div>или позвоните нам: <a class="mail-to" href="tel:+7(926)0762322"> +7 (926) 076-23-22 </a></div>
+        </form>
+      </div>
+    </div>
+    <div class="wrap-block">
+      <div class="wrap-block_undo advantages">
+        <p class="head-text">4 причины работать с нами:</p>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="advantages_icon">
+              <img src="img/icon.png" alt="" />
+            </div>
+            <p><span>Качество</span>
+              Качественное выполнение поставленной задачи — наша главная цель и ориентир. Вам не нужно тратить свое время!
+            </p>
+            <div class="advantages_line"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="advantages_icon">
+              <img src="img/icon2.png" alt="" />
+            </div>
+            <p>
+              <span>Стратегия</span>Мы имеем полностью отработанную технологиюи стратегию работы, свою IT-систему и базу резюме
+            </p>
+            <div class="advantages_line"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="advantages_icon">
+              <img src="img/icon3.png" alt="" />
+            </div>
+            <p>
+              <span>Дисциплина</span>Формируем бригады до 50 человек за 24 часа. Бригадир организует весь процесс работы на высшем уровне
+            </p>
+            <div class="advantages_line"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="advantages_icon">
+              <img src="img/icon4.png" alt="" />
+            </div>
+            <p>
+              <span>Выгода</span>Подберем персонал и поможем сэкономить до 40% бюджета. Оплата по безналичному и наличному расчету
+            </p>
+            <div class="advantages_line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-block blue-lent">
+      <div class="wrap-block_undo form-five-minute">
+        <div class="row">
+          <div class="col-md-6 col-offset-md-1"> <p>Узнайте точные сроки выполнения вашего заказа через 5 минут!</p> </div>
+          <div class="col-md-6">
+            <form action="">
+              <input type="text" name="name" class="tel-input" placeholder="Ваш телефон" value="" />
+              <button type="button" name="button">отправить</button>
+              <div>или позвоните нам: <a href="tel:+7(926)0762322"> +7 (926) 076-23-22 </a> </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-block" id="tarif">
+      <div class="wrap-block_undo tarif">
+        <p class="head-text">Наши услуги и тарифы</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="tarif_block">
+              <img src="img/tarif1.jpg" alt="" />
+              <div class="tarif_block_img-text">Грузчики</div>
+              <div class="tarif_block_more">подробнее</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="tarif_block">
+              <img src="img/tarif2.jpg" alt="" />
+              <div class="tarif_block_img-text">разнорабочие</div>
+              <div class="tarif_block_more">подробнее</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="tarif_block">
+              <img src="img/tarif3.jpg" alt="" />
+              <div class="tarif_block_img-text">Аутсорсинг</div>
+              <div class="tarif_block_more">подробнее</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-block blue-lent">
+      <div class="wrap-block_undo number">
+        <div class="row">
+          <div class="col-md-3"> <span class="number_big-text">7</span> <p class="number_text">лет опыта в аутсорсинге </p> </div>
+          <div class="col-md-3"> <span class="number_big-text">1896</span> <p class="number_text">резюме в базе данных </p> </div>
+          <div class="col-md-3"> <span class="number_big-text">156</span> <p class="number_text"> постояных клиентов</p> </div>
+          <div class="col-md-3"> <span class="number_big-text">40%</span> <p class="number_text">мы поможем сэкономить</p> </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-block">
+      <div class="wrap-block_undo scheme">
+        <p class="head-text">Схема нашей работы</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="sheme_box">1</div>
+            <div class="sheme_vertical-text">
+              <p class="sheme_text">Получаем вашу заявку</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sheme_box">2</div>
+            <div class="sheme_vertical-text">
+              <p class="sheme_text">Оцениваем объем работ</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sheme_box">3</div>
+            <div class="sheme_vertical-text">
+              <p class="sheme_text">Подписываем договор</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="sheme_box">4</div>
+            <div class="sheme_vertical-text">
+              <p class="sheme_text">Формируем бригаду</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sheme_box">5</div>
+            <div class="sheme_vertical-text">
+              <p class="sheme_text">Проводим инструктаж</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sheme_box">6</div>
+            <div class="sheme_vertical-text">
+              <p class="sheme_text">Направляем бригаду на место</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="sheme_box">7</div>
+            <div class="sheme_vertical-text">
+              <p class="sheme_text">Осуществляем контроль и предоставляем отчеты</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sheme_box">8</div>
+            <div class="sheme_vertical-text">
+              <p class="sheme_text">Подписaываем акт выполненных работ</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="sheme_box">9</div>
+            <div class="sheme_vertical-text">
+              <p class="sheme_text">Ждем следующих заказов</p>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="wrap-block blue-lent">
+      <div class="wrap-block_undo form-five-minute">
+        <div class="row">
+          <div class="col-md-6 col-offset-md-1"> <p>Узнайте точные сроки выполнения вашего заказа через 5 минут!</p> </div>
+          <div class="col-md-6">
+            <form action="">
+              <input type="text" name="name" class="tel-input" placeholder="Ваш телефон" value="" />
+              <button type="button" name="button">отправить</button>
+              <div>или позвоните нам: <a href="tel:+7(926)0762322"> +7 (926) 076-23-22 </a></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-block">
+      <div class="wrap-block_undo circle">
+        <p class="head-text">Преимущества работы с нами</p>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="circle_block">
+              <img src="img/icon5.png" alt="">
+              <p>всегда удобный для вас график работы</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="circle_block">
+              <img src="img/icon6.png" alt="">
+              <p>работа на объектах недалеко от дома</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="circle_block">
+              <img src="img/icon7.png" alt="">
+              <p>гарантированные регулярные выплаты</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="circle_block">
+              <img src="img/icon8.png" alt="">
+              <p>работа в слаженном коллективе</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-block blue-lent" id="vacancy">
+      <div class="wrap-block_undo vacancy">
+        <p class="head-text">Хотите работать с нами? Заполните анкету:</p>
+        <div class="row">
+          <form action="">
+            <div class="col-md-6"><input type="text" name="" placeholder="Ваше имя"/></div>
+            <div class="col-md-6"><input type="text" name="" placeholder="Ваш возраст"/></div>
+            <div class="col-md-6"><input type="text" name="" class="tel-input" placeholder="Ваш телефон"/></div>
+            <div class="col-md-6"><input type="text" name="" placeholder="Ваше гражданство"/></div>
+            <div class="col-md-6 vacancy_checkbox-block">
+              <div style="">
+                <input type="checkbox" id="checkbox1" name="checkbox" value="value" /><label for="checkbox1">Возможность работы в выходные</label>
+                <input type="checkbox" id="checkbox2" name="checkbox" value="value" /><label for="checkbox2">Возможность ночной работы</label>
+                <input type="checkbox" id="checkbox3" name="checkbox" value="value" /><label for="checkbox3">Наличие санитарной книжки</label>
+              </div>
+              </div>
+            <div class="col-md-6"><button id="vacancy-button">хочу работать</button></div>
+            <div class="col-md-12 vacancy_tel">или позвоните нам: <a href="tel:+7(926)0762322"> +7 (926) 076-23-22 </a></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-block" id="contact">
+      <div class="wrap-block_undo contact">
+        <p class="head-text">Свяжитесь с нами</p>
+        <div class="row">
+          <div class="col-md-4">Московская обл., г. Мытищи <br /> ул. Рабочая 14, офис 88</div>
+          <div class="col-md-4"> <a href="tel:+7(926)0762322">+7 (926) 076-23-22 </a> <br /> <a href="tel:+7(903)1420610"> +7 (903) 142-06-10 </a></div>
+          <div class="col-md-4"><a href="mailto:info@personal-lider.ru">info@personal-lider.ru</a> <br /> <a href="mailto:rabota@personal-lider.ru">rabota@personal-lider.ru</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap-block map-wrap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2211.438131641557!2d43.880084221096524!3d56.33952467680828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4151d638604c5f07%3A0x5a0068942679329d!2sul.+Kominterna%2C+16%2C+Nizhnij+Novgorod%2C+Nizhegorodskaya+oblast&#39;%2C+603157!5e0!3m2!1sen!2sru!4v1463073357104" width="100%" height="460" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="wrap-block wrap-header wrap-header--inverse">
+      <div class="wrap-block_undo header row">
+        <div class="col-md-3 header_logo">
+          <a href="#"> <img src="img/logo-inverse.png" alt=""> </a>
+        </div>
+        <div class="col-md-6 header_menu">
+          <ul>
+            <li><a href="#home">главная  </a></li>
+            <li><a href="#tarif">услуги и тарифы </a></li>
+            <li><a href="#vacancy">вакансии </a></li>
+            <li><a href="#contact">контакты </a></li>
+          </ul>
+        </div>
+        <div class="header_number col-md-3"><a href="tel:+7(926)0762322" style="color: #848484;">+7 (926) 076-23-22</a></div>
+      </div>
+    </div>
+
+    <!-- <form id="form">
+  		<input type="text" name="name" placeholder="Ваше имя" required /><br />
+  		<input type="text" name="phone" class="tel-input" placeholder="Ваш телефон" required /><br />
+  		<button>Отправить</button>
+  	</form> -->
+
+
+    <div class="wrap-block">
+      <div class="wrap-block_undo"></div>
+    </div>
+    <!-- scripts -->
+
+  </body>
+</html>
